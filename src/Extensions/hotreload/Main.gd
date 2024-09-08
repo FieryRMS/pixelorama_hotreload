@@ -27,7 +27,7 @@ func _process(_delta: float) -> void:
 	var global = extension_api.general.get_global()
 	var curr_project = extension_api.project.current_project
 	for project in global.projects:
-		if not proj_reload_dict.has(project)
+		if not proj_reload_dict.has(project):
 			proj_reload_dict[project] = ReloadData.new()
 
 		if project != curr_project:
