@@ -3,7 +3,7 @@
     "display_name": "Hot Reload",
     "description": "reloads the open image when it is modified externally",
     "author": "FieryRMS",
-    "version": "0.1",
+    "version": "1.0.1",
 	"supported_api_versions": [4],
     "license": "MIT",
     "nodes": [
